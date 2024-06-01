@@ -16,7 +16,7 @@ please visit <https://ams.adv.red/>
 | provider              | Required | String | The name of this Adapter.                            | `'advRed'`                       |
 | params                | Required | Object | Details of module params.                            |                                  |
 | params.publisherId    | Required | String | This is the Publisher ID value obtained from AdvRed. | `'123456'`                       |
-| params.url            | Optional | String | Custom URL of the endpoint to collect the events     | 'https://pub1.analytics.adv.red' |
+| params.url            | Optional | String | Custom URL of the endpoint to collect the events     | `'https://pub1.analytics.adv.red'` |
 
 ### Example Configuration
 
