@@ -5,12 +5,12 @@ description: AdvRed Analytics Adapter
 modulecode: advRed
 ---
 
-### Usage
+#### About
 
 The AdvRed analytics adapter can be used by all clients after approval. For more information,
 please visit <https://ams.adv.red/>
 
-### Analytics Options
+#### Analytics Options
 | Param enableAnalytics | Scope    | Type   | Description                                          | Example                          |
 |-----------------------|----------|--------|------------------------------------------------------|----------------------------------|
 | provider              | Required | String | The name of this Adapter.                            | `'advRed'`                       |
@@ -18,7 +18,7 @@ please visit <https://ams.adv.red/>
 | params.publisherId    | Required | String | This is the Publisher ID value obtained from AdvRed. | `'123456'`                       |
 | params.url            | Optional | String | Custom URL of the endpoint to collect the events     | `'https://pub1.analytics.adv.red'` |
 
-### Example Configuration
+#### Example Configuration
 
 ```javascript
 pbjs.enableAnalytics({
